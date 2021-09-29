@@ -1,0 +1,24 @@
+Fluxo do jogo:
+
+# CHECK IN
+- pedir o nome do primeiro a jogar
+- pedir a cor das peças do primeiro jogador
+- pedir o nome do segundo jogador
+- atribuir a cor restante ao segundo jogador
+- armazenar a quantidade jogadas realizadas para vitoria
+
+# MAIN LOOP
+	# INICIO DO JOGO
+	- Se for a primeira partida, os jogadores tiram par ou impar para decidir quem começa
+	- Se não, o jogador ganhador da partida anterior começa o jogo
+
+	# GAME LOOP
+	- Jogador atual decide qual peça jogar, e a movimenta para a unica posição disponivel
+	- Se, após a jogada do jogador atual, não houver nenhuma posição adjacente às pecas adversarias, o jogador atual venceu. Vai para Fim de Jogo
+	- Se não, é a vez do proximo jogador.
+	- NOVO LOOP.
+
+	#FIM DE JOGO
+	- Perguntar se desejam jogar novamente
+	- Se sim, novo ciclo de Main Loop
+	- Se não, Quit

@@ -1,0 +1,23 @@
+
+   (1)-------------(2)
+    | \           / |
+    |   \       /   |
+    |     \   /     |
+    |      (3)      |
+    |     /   \     |
+    |   /       \   |
+    | /           \ |
+   (4)             (5)
+
+- 5 posições no total
+- 4 peças no tabuleiro
+- 1 posição jogavel inicial
+- 1 entre 2 peças possiveis para cada jogada
+
+Vitoria:
+Quando um jogador impedir o outro de movimentar suas peças
+
+
+Peças jogador 1 (Azul): \U0001f535 1 e 2
+Peças jogador 2(Vermelho): \U0001f534 4 e 5
+
